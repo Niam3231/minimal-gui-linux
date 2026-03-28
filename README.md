@@ -1,5 +1,5 @@
 # Minimal startx for Linux
-### Install and launch an absolute minimal GUI. Being able to run graphical apps. Literally just that. Nothing... just simply nothin' else.
+### Install and launch an absolute minimal GUI and a simple window manager. Being able to run graphical apps. Literally just that. Nothing... just simply nothin' else.
 ## Installation
 Run this command in a native linux environment.
 ``` bash
@@ -17,3 +17,7 @@ sudo apt install -y git && git clone "https://github.com/Niam3231/minimal-gui-li
 ```
 ## Note
 Do not run this in WSL. In WSL or any other emulation, you are most likely to already have app support. Just try launching the app if so.
+
+## Credits
+[Niam3231](https://github.com/Niam3231)
+[Openbox](https://github.com/danakj/openbox)
