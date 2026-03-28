@@ -2,12 +2,13 @@
 set -e
 echo "[*] Installing minimal X server..."
 apt update
-apt install -y xorg x11-xserver-utils xinit xterm
+apt install -y xorg x11-xserver-utils xinit xterm openbox
 echo "[*] Configuring ~/.xinitrc..."
 cat > ~/.xinitrc <<'EOF'
 #!/bin/sh
 xsetroot -solid black
 xsetroot -cursor_name cross
+openbox &
 exec xterm
 EOF
 chmod +x ~/.xinitrc
